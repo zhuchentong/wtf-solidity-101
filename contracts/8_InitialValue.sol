@@ -1,5 +1,5 @@
 // SPDX-License-Identifier: MIT
-pragma solidity ^0.8.20;
+pragma solidity ^0.8.4;
 
 contract InitialValue{
     // 声明但是没有赋值的变量，都被设置为初始值
