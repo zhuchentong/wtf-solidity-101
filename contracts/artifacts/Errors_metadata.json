@@ -1,0 +1,114 @@
+{
+	"compiler": {
+		"version": "0.8.25+commit.b61c2a91"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "value",
+						"type": "uint256"
+					}
+				],
+				"name": "ErrorTest",
+				"type": "error"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_int",
+						"type": "uint256"
+					}
+				],
+				"name": "assertTest",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_int",
+						"type": "uint256"
+					}
+				],
+				"name": "errorTest",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_int",
+						"type": "uint256"
+					}
+				],
+				"name": "requireTest",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/15_Errors.sol": "Errors"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/15_Errors.sol": {
+			"keccak256": "0x728724ff886c186392662f953c9d12e74a8575946d665172ce617dda6a212bd7",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://84b5e4058fde4b8ae94fa958c493565c348ad919f009f2f7f92d9c1b5669bd3b",
+				"dweb:/ipfs/QmVHp5HFuKvH3uAcPFBzpzsDS2zaUZPAxG2pE7Lxm8o9Wg"
+			]
+		}
+	},
+	"version": 1
+}
