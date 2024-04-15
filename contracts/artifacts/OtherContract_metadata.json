@@ -43,7 +43,7 @@
 				"outputs": [
 					{
 						"internalType": "uint256",
-						"name": "",
+						"name": "x",
 						"type": "uint256"
 					}
 				],
@@ -77,7 +77,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/21_CallContract.sol": "OtherContract"
+			"contracts/22_Call.sol": "OtherContract"
 		},
 		"evmVersion": "berlin",
 		"libraries": {},
@@ -91,12 +91,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/21_CallContract.sol": {
-			"keccak256": "0x145e563c2f46a1d71f6d1879bb422244da3f182f00cfeb98460ec5b1e6d5cfa0",
+		"contracts/22_Call.sol": {
+			"keccak256": "0x06f2e7bb7d0b2d5bd02b35412d2e4ac8730a746aa805a489496cfd02c0685bbc",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://239ec20d8d990949149d44822eed1400aa9564b360e813332add648316857085",
-				"dweb:/ipfs/Qma8k9KTgTbRnMRuQC8Q3NbhvmH6pNbjXTEPo65QvcA4yJ"
+				"bzz-raw://5384740a2f7aaec5a600d2e2b9f09981a90db8c3a639ea81935e235ac83c849d",
+				"dweb:/ipfs/QmTdVsNNzoubKZh64Qn1AmtYa6jBX49wRkSVNUCroDUs7F"
 			]
 		}
 	},

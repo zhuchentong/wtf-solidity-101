@@ -28,62 +28,50 @@
 				"inputs": [
 					{
 						"internalType": "address",
-						"name": "_addr",
+						"name": "_address",
 						"type": "address"
-					},
+					}
+				],
+				"name": "callGetx",
+				"outputs": [
 					{
 						"internalType": "uint256",
-						"name": "_num",
+						"name": "",
 						"type": "uint256"
 					}
 				],
-				"name": "callSetVars",
-				"outputs": [],
-				"stateMutability": "payable",
+				"stateMutability": "nonpayable",
 				"type": "function"
 			},
 			{
 				"inputs": [
 					{
 						"internalType": "address",
-						"name": "_addr",
+						"name": "_address",
+						"type": "address"
+					}
+				],
+				"name": "callNonExist",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address payable",
+						"name": "_address",
 						"type": "address"
 					},
 					{
 						"internalType": "uint256",
-						"name": "_num",
+						"name": "x",
 						"type": "uint256"
 					}
 				],
-				"name": "delegateCallSetVars",
+				"name": "callSetX",
 				"outputs": [],
 				"stateMutability": "payable",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "num",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "sender",
-				"outputs": [
-					{
-						"internalType": "address",
-						"name": "",
-						"type": "address"
-					}
-				],
-				"stateMutability": "view",
 				"type": "function"
 			}
 		],
@@ -100,7 +88,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/32_DelegateCall.sol": "B"
+			"contracts/22_Call.sol": "Call"
 		},
 		"evmVersion": "berlin",
 		"libraries": {},
@@ -114,12 +102,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/32_DelegateCall.sol": {
-			"keccak256": "0x74e03defb1386c1a2bba97b98c9064819c7022356cd4f870a50131dfb3b4cddb",
+		"contracts/22_Call.sol": {
+			"keccak256": "0x06f2e7bb7d0b2d5bd02b35412d2e4ac8730a746aa805a489496cfd02c0685bbc",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://4a2db9722935510db4e1a4ab4927811a8b16e5a4a8e5ec46d9549757d4ba9ebf",
-				"dweb:/ipfs/QmNXVi1Z88V17oBoPNdDGKGJLYtYTiQ62prCLDDUkR1KeK"
+				"bzz-raw://5384740a2f7aaec5a600d2e2b9f09981a90db8c3a639ea81935e235ac83c849d",
+				"dweb:/ipfs/QmTdVsNNzoubKZh64Qn1AmtYa6jBX49wRkSVNUCroDUs7F"
 			]
 		}
 	},
