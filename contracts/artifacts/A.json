@@ -34,43 +34,27 @@
 			"functionDebugData": {},
 			"generatedSources": [],
 			"linkReferences": {},
-			"object": "",
-			"opcodes": "",
-			"sourceMap": ""
+			"object": "6080604052348015600f57600080fd5b50603f80601d6000396000f3fe6080604052600080fdfea26469706673582212208363d26ea39cb701e12c901290ea1d601f34a454210cd659e9a3d25b2dabf8af64736f6c63430008190033",
+			"opcodes": "PUSH1 0x80 PUSH1 0x40 MSTORE CALLVALUE DUP1 ISZERO PUSH1 0xF JUMPI PUSH1 0x0 DUP1 REVERT JUMPDEST POP PUSH1 0x3F DUP1 PUSH1 0x1D PUSH1 0x0 CODECOPY PUSH1 0x0 RETURN INVALID PUSH1 0x80 PUSH1 0x40 MSTORE PUSH1 0x0 DUP1 REVERT INVALID LOG2 PUSH5 0x6970667358 0x22 SLT KECCAK256 DUP4 PUSH4 0xD26EA39C 0xB7 ADD 0xE1 0x2C SWAP1 SLT SWAP1 0xEA SAR PUSH1 0x1F CALLVALUE LOG4 SLOAD 0x21 0xC 0xD6 MSIZE 0xE9 LOG3 0xD2 JUMPDEST 0x2D 0xAB 0xF8 0xAF PUSH5 0x736F6C6343 STOP ADDMOD NOT STOP CALLER ",
+			"sourceMap": "422:19:0:-:0;;;;;;;;;;;;;;;;;;;"
 		},
 		"deployedBytecode": {
 			"functionDebugData": {},
 			"generatedSources": [],
 			"immutableReferences": {},
 			"linkReferences": {},
-			"object": "",
-			"opcodes": "",
-			"sourceMap": ""
+			"object": "6080604052600080fdfea26469706673582212208363d26ea39cb701e12c901290ea1d601f34a454210cd659e9a3d25b2dabf8af64736f6c63430008190033",
+			"opcodes": "PUSH1 0x80 PUSH1 0x40 MSTORE PUSH1 0x0 DUP1 REVERT INVALID LOG2 PUSH5 0x6970667358 0x22 SLT KECCAK256 DUP4 PUSH4 0xD26EA39C 0xB7 ADD 0xE1 0x2C SWAP1 SLT SWAP1 0xEA SAR PUSH1 0x1F CALLVALUE LOG4 SLOAD 0x21 0xC 0xD6 MSIZE 0xE9 LOG3 0xD2 JUMPDEST 0x2D 0xAB 0xF8 0xAF PUSH5 0x736F6C6343 STOP ADDMOD NOT STOP CALLER ",
+			"sourceMap": "422:19:0:-:0;;;;;"
 		},
-		"gasEstimates": null,
-		"methodIdentifiers": {
-			"insert(uint256)": "90b5561d"
-		}
+		"gasEstimates": {
+			"creation": {
+				"codeDepositCost": "12600",
+				"executionCost": "66",
+				"totalCost": "12666"
+			}
+		},
+		"methodIdentifiers": {}
 	},
-	"abi": [
-		{
-			"inputs": [
-				{
-					"internalType": "uint256",
-					"name": "_int",
-					"type": "uint256"
-				}
-			],
-			"name": "insert",
-			"outputs": [
-				{
-					"internalType": "uint256",
-					"name": "",
-					"type": "uint256"
-				}
-			],
-			"stateMutability": "pure",
-			"type": "function"
-		}
-	]
+	"abi": []
 }
