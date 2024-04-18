@@ -6,84 +6,16 @@
 	"output": {
 		"abi": [
 			{
-				"anonymous": false,
-				"inputs": [
-					{
-						"indexed": false,
-						"internalType": "bool",
-						"name": "success",
-						"type": "bool"
-					},
-					{
-						"indexed": false,
-						"internalType": "bytes",
-						"name": "data",
-						"type": "bytes"
-					}
-				],
-				"name": "Response",
-				"type": "event"
-			},
-			{
-				"inputs": [
-					{
-						"internalType": "address",
-						"name": "_addr",
-						"type": "address"
-					},
-					{
-						"internalType": "uint256",
-						"name": "_num",
-						"type": "uint256"
-					}
-				],
-				"name": "callSetVars",
-				"outputs": [],
-				"stateMutability": "payable",
-				"type": "function"
-			},
-			{
-				"inputs": [
-					{
-						"internalType": "address",
-						"name": "_addr",
-						"type": "address"
-					},
-					{
-						"internalType": "uint256",
-						"name": "_num",
-						"type": "uint256"
-					}
-				],
-				"name": "delegateCallSetVars",
-				"outputs": [],
-				"stateMutability": "payable",
-				"type": "function"
-			},
-			{
 				"inputs": [],
-				"name": "num",
+				"name": "mintSelector",
 				"outputs": [
 					{
-						"internalType": "uint256",
+						"internalType": "bytes4",
 						"name": "",
-						"type": "uint256"
+						"type": "bytes4"
 					}
 				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "sender",
-				"outputs": [
-					{
-						"internalType": "address",
-						"name": "",
-						"type": "address"
-					}
-				],
-				"stateMutability": "view",
+				"stateMutability": "pure",
 				"type": "function"
 			}
 		],
@@ -100,7 +32,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/32_DelegateCall.sol": "B"
+			"contracts/29_Selector.sol": "B"
 		},
 		"evmVersion": "berlin",
 		"libraries": {},
@@ -114,12 +46,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/32_DelegateCall.sol": {
-			"keccak256": "0x74e03defb1386c1a2bba97b98c9064819c7022356cd4f870a50131dfb3b4cddb",
+		"contracts/29_Selector.sol": {
+			"keccak256": "0x17b526a52e703ac75abdf426d51a289946b91e6684821a62257a04a81312811c",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://4a2db9722935510db4e1a4ab4927811a8b16e5a4a8e5ec46d9549757d4ba9ebf",
-				"dweb:/ipfs/QmNXVi1Z88V17oBoPNdDGKGJLYtYTiQ62prCLDDUkR1KeK"
+				"bzz-raw://6ed46ca7f3804f98b6ff4fd6a2bc67d8c450ed5c7adecbac60b0f40db2afbde8",
+				"dweb:/ipfs/QmaiGWdmZc952tduWY5mfHC4NQZiYiT9aaaorz85XmyDvE"
 			]
 		}
 	},
