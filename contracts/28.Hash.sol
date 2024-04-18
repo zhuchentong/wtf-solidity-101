@@ -22,6 +22,10 @@ contract HashContract {
         return keccak256(abi.encodePacked(_num, _string, _addr));
     }
 
+    function hash1() public pure returns(bytes32){
+        return keccak256("zct446550902");
+    }
+
     // function weak(string memory string1) public view returns(bool){
     //     return keccak256(abi.encodePacked(string1) == _msg);
     // }
