@@ -302,7 +302,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/31_Erc20.sol": "ERC20"
+			"contracts/31_ERC20.sol": "ERC20"
 		},
 		"evmVersion": "berlin",
 		"libraries": {},
@@ -316,7 +316,7 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/31_Erc20.sol": {
+		"contracts/31_ERC20.sol": {
 			"keccak256": "0x51eb7012d70eb5c63c0248278acc0119e73426d27a02395b7dae62f380719958",
 			"license": "MIT",
 			"urls": [

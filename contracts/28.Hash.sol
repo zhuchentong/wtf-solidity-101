@@ -29,6 +29,4 @@ contract HashContract {
     // function weak(string memory string1) public view returns(bool){
     //     return keccak256(abi.encodePacked(string1) == _msg);
     // }
-
-    
 }
