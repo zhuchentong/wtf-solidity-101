@@ -1,0 +1,114 @@
+{
+	"compiler": {
+		"version": "0.8.25+commit.b61c2a91"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256[]",
+						"name": "_arr",
+						"type": "uint256[]"
+					}
+				],
+				"name": "getSum",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "sum",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address payable[]",
+						"name": "_addresses",
+						"type": "address[]"
+					},
+					{
+						"internalType": "uint256[]",
+						"name": "_amounts",
+						"type": "uint256[]"
+					}
+				],
+				"name": "multiTransferETH",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_token",
+						"type": "address"
+					},
+					{
+						"internalType": "address[]",
+						"name": "_addresses",
+						"type": "address[]"
+					},
+					{
+						"internalType": "uint256[]",
+						"name": "_amounts",
+						"type": "uint256[]"
+					}
+				],
+				"name": "multiTransferToken",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/33_AirDrop.sol": "AirDrop"
+		},
+		"evmVersion": "berlin",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/33_AirDrop.sol": {
+			"keccak256": "0x6f004dec323c29d709cf366e6a3cd7331caeca3b76f43f76bc1b4c788caed879",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://92a189829af43535c03835262825df754e6d3c43a2f2167c885d07e2cde1c74d",
+				"dweb:/ipfs/QmaBjSVsRvefZNvhYouLjnT7YThAKVWEUFYHWcrYxR8D9c"
+			]
+		},
+		"contracts/IERC20.sol": {
+			"keccak256": "0x07da11be08c7963a2ea9164096bbd27e7c8dee0ff41869870796d81165bc2879",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://529d2fb0dacb4d498b102ca48c5ffb5c54c2333f8122972a1577a34effa04ad0",
+				"dweb:/ipfs/QmZpi4yteS1v16JMRRxj7BAyDDzZGXAcaWnoiLkuEFwax1"
+			]
+		}
+	},
+	"version": 1
+}

@@ -251,6 +251,25 @@
 			{
 				"inputs": [
 					{
+						"internalType": "bytes4",
+						"name": "interfaceId",
+						"type": "bytes4"
+					}
+				],
+				"name": "supportsInterface",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
 						"internalType": "address",
 						"name": "from",
 						"type": "address"
@@ -274,7 +293,11 @@
 		],
 		"devdoc": {
 			"kind": "dev",
-			"methods": {},
+			"methods": {
+				"supportsInterface(bytes4)": {
+					"details": "如果合约实现了查询的`interfaceId`，则返回true 规则详见：https://eips.ethereum.org/EIPS/eip-165#how-interfaces-are-identified[EIP section]"
+				}
+			},
 			"version": 1
 		},
 		"userdoc": {
@@ -285,9 +308,9 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/14_Interface.sol": "IERC721"
+			"contracts/IERC721.sol": "IERC721"
 		},
-		"evmVersion": "paris",
+		"evmVersion": "berlin",
 		"libraries": {},
 		"metadata": {
 			"bytecodeHash": "ipfs"
@@ -299,12 +322,20 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/14_Interface.sol": {
-			"keccak256": "0x8d438c88ddd8bbad87f99f83e52df559caac834363398b64866559274c992e41",
+		"contracts/IERC165.sol": {
+			"keccak256": "0x4984211493e43fd9a661f2e6b30497d5d18422b705387a35dd0a51b75f5a5554",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://815958ca438273451f43615d7199aa2bc9d204279fc81976e8e240b445bf09af",
-				"dweb:/ipfs/QmbyzohH2zVtqBmaRa7KFEw97d4WQB5xfChU2zKa9nvZjp"
+				"bzz-raw://7f890658974c3178cb54933ced8e88d71e465653db48adbe30ccd61ad66c9d29",
+				"dweb:/ipfs/QmeBStR7LZNE7Tz6YSPvcEAEqHZzshZTGwpJ1VWUNTQfig"
+			]
+		},
+		"contracts/IERC721.sol": {
+			"keccak256": "0x5ac6e719e517b865924126dc153544d71f7311a6ce469210f1e1963f960f83ff",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://8d7594f359d5c660d3abb4a85afa8f934832abcf6d609072c49b399c54de98e5",
+				"dweb:/ipfs/QmYPYBPcdn9jcbq64DbR6TBReikW2MscF4iGBErVvoz9sz"
 			]
 		}
 	},
