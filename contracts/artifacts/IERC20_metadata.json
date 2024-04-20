@@ -232,7 +232,7 @@
 		"compilationTarget": {
 			"contracts/IERC20.sol": "IERC20"
 		},
-		"evmVersion": "berlin",
+		"evmVersion": "cancun",
 		"libraries": {},
 		"metadata": {
 			"bytecodeHash": "ipfs"

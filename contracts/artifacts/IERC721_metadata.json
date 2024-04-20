@@ -310,7 +310,7 @@
 		"compilationTarget": {
 			"contracts/IERC721.sol": "IERC721"
 		},
-		"evmVersion": "berlin",
+		"evmVersion": "cancun",
 		"libraries": {},
 		"metadata": {
 			"bytecodeHash": "ipfs"

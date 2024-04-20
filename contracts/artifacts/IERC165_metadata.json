@@ -44,7 +44,7 @@
 		"compilationTarget": {
 			"contracts/IERC165.sol": "IERC165"
 		},
-		"evmVersion": "berlin",
+		"evmVersion": "cancun",
 		"libraries": {},
 		"metadata": {
 			"bytecodeHash": "ipfs"
