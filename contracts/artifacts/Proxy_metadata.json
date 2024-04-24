@@ -1,0 +1,82 @@
+{
+	"compiler": {
+		"version": "0.8.25+commit.b61c2a91"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "implementation_",
+						"type": "address"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"stateMutability": "payable",
+				"type": "fallback"
+			},
+			{
+				"inputs": [],
+				"name": "implementation",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"stateMutability": "payable",
+				"type": "receive"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {
+				"constructor": {
+					"details": "初始化逻辑合约地址"
+				}
+			},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/46_ProxyContract.sol": "Proxy"
+		},
+		"evmVersion": "berlin",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/46_ProxyContract.sol": {
+			"keccak256": "0xa97649275580aa386b9d027ae0180a26060a77bc6b7ba8c62f4dd22c341b3b35",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://9c8d79c90278a12a1bdce8de6607555a7a8848bdfd6d7707ec8d5b5a89f2e92c",
+				"dweb:/ipfs/QmP7GcNY2gxkSbm2SuY81cfLpuJbjWc3k9AkVos7E16iKF"
+			]
+		}
+	},
+	"version": 1
+}
